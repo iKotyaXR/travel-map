@@ -18,10 +18,10 @@ function App() {
             <Main>
                 <Container>
                     <TransparentContainer className={'main-container'}>
-                        <TransparentButton color={'Red'}>Россия</TransparentButton>
-                        <TransparentButton color={'Blue'}>Россия</TransparentButton>
-                        <TransparentButton color={'White'}>Россия</TransparentButton>
-                        <TransparentButton color={'Red'}>Россия</TransparentButton>
+                        <TransparentButton color={'Red'}>Russia</TransparentButton>
+                        <TransparentButton color={'Blue'}>Russia</TransparentButton>
+                        <TransparentButton color={'White'}>Russia</TransparentButton>
+                        <TransparentButton color={'Red'}>Russia</TransparentButton>
                     </TransparentContainer>
                 </Container>
             </Main>
