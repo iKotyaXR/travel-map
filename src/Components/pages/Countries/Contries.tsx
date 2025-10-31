@@ -13,13 +13,13 @@ export const Countries = () => {
                     Russia
                 </TransparentButton>
                 <TransparentButton color={'Blue'} onClick={onClick}>
-                    Russia
+                    Bangkok
                 </TransparentButton>
                 <TransparentButton color={'White'} onClick={onClick}>
-                    Russia
+                    Moscow
                 </TransparentButton>
                 <TransparentButton color={'Red'} onClick={onClick}>
-                    Russia
+                    Stavropol
                 </TransparentButton>
             </div>
         </TransparentContainer>
