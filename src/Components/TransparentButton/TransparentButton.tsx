@@ -16,10 +16,11 @@ const BaseButton = styled.button`
     transition: 0.3s;
 
     &:hover {
-        transform: scale(0.98);
+        transform: scaleY(0.95);
     }
+
     &:active {
-        transform: scale(0.95);
+        transform: scaleY(0.9);
     }
 `;
 

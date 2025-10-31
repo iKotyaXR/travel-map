@@ -11,18 +11,20 @@ function App() {
     return (
         <Container>
             <TransparentContainer className={'main-container'}>
-                <TransparentButton color={'Red'} onClick={onClick}>
-                    Russia
-                </TransparentButton>
-                <TransparentButton color={'Blue'} onClick={onClick}>
-                    Russia
-                </TransparentButton>
-                <TransparentButton color={'White'} onClick={onClick}>
-                    Russia
-                </TransparentButton>
-                <TransparentButton color={'Red'} onClick={onClick}>
-                    Russia
-                </TransparentButton>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                    <TransparentButton color={'Red'} onClick={onClick}>
+                        Russia
+                    </TransparentButton>
+                    <TransparentButton color={'Blue'} onClick={onClick}>
+                        Russia
+                    </TransparentButton>
+                    <TransparentButton color={'White'} onClick={onClick}>
+                        Russia
+                    </TransparentButton>
+                    <TransparentButton color={'Red'} onClick={onClick}>
+                        Russia
+                    </TransparentButton>
+                </div>
             </TransparentContainer>
         </Container>
     );
