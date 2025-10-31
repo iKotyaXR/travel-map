@@ -52,16 +52,17 @@ export type EColor = (typeof EColor)[keyof typeof EColor];
 interface IProps {
     color: EColor;
     children: ReactNode;
+    onClick: () => void;
 }
 
-const TransparentButton: FC<IProps> = ({ color, children }) => {
+const TransparentButton: FC<IProps> = ({ color, children, onClick }) => {
     switch (color) {
         case EColor.Blue:
-            return <TransparentButtonBlue>{children}</TransparentButtonBlue>;
+            return <TransparentButtonBlue onClick={onClick}>{children}</TransparentButtonBlue>;
         case EColor.Red:
-            return <TransparentButtonRed>{children}</TransparentButtonRed>;
+            return <TransparentButtonRed onClick={onClick}>{children}</TransparentButtonRed>;
         case EColor.White:
-            return <TransparentButtonWhite>{children}</TransparentButtonWhite>;
+            return <TransparentButtonWhite onClick={onClick}>{children}</TransparentButtonWhite>;
     }
 };
 
